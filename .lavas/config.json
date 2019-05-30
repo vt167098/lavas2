@@ -1,5 +1,5 @@
 {
-    "buildVersion": 1556258686656,
+    "buildVersion": 1559094202565,
     "build": {
         "ssr": false,
         "publicPath": "/",
@@ -26,7 +26,7 @@
     },
     "serviceWorker": {
         "enable": true,
-        "swDest": "D:\\learnSpace\\lavas2\\dist\\service-worker.js"
+        "swDest": "D:\\WorkSpace\\Vue\\lavas2\\dist\\service-worker.js"
     },
     "skeleton": {
         "enable": true,

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-import Skeleton from 'D:\\learnSpace\\lavas2\\core\\Skeleton.vue';
+import Skeleton from 'D:\\WorkSpace\\Vue\\lavas2\\core\\Skeleton.vue';
 
 
 export default new Vue({

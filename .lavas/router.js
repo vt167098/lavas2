@@ -2,44 +2,44 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
     
-import _15562586866769d49a922ebc8a6d77ca82c0a74289b98 from '@/pages/Appshell.vue';
+import _15590942025969d49a922ebc8a6d77ca82c0a74289b98 from '@/pages/Appshell.vue';
     
 
     
-import _1556258686676d2462dcf0c7beccd286c658e08187914 from '@/pages/Error.vue';
+import _1559094202596d2462dcf0c7beccd286c658e08187914 from '@/pages/Error.vue';
     
 
     
-import _155625868667667830448037326425509e44bce7632b7 from '@/pages/Index.vue';
+import _155909420259667830448037326425509e44bce7632b7 from '@/pages/Index.vue';
     
 
     
-import _1556258686676807eb68689a3e5cb3d69073ac694db3e from '@/pages/pages/_hall.vue';
+import _1559094202596807eb68689a3e5cb3d69073ac694db3e from '@/pages/pages/_hall.vue';
     
 
 
 let routes = [
     {
         "path": "/appshell",
-        "component": _15562586866769d49a922ebc8a6d77ca82c0a74289b98,
+        "component": _15590942025969d49a922ebc8a6d77ca82c0a74289b98,
         "meta": {},
         "name": "appshell"
     },
     {
         "path": "/",
-        "component": _155625868667667830448037326425509e44bce7632b7,
+        "component": _155909420259667830448037326425509e44bce7632b7,
         "meta": {},
         "name": "index"
     },
     {
         "path": "/pages/:hall",
-        "component": _1556258686676807eb68689a3e5cb3d69073ac694db3e,
+        "component": _1559094202596807eb68689a3e5cb3d69073ac694db3e,
         "meta": {},
         "name": "pagesHall"
     },
     {
         "path": "/error",
-        "component": _1556258686676d2462dcf0c7beccd286c658e08187914,
+        "component": _1559094202596d2462dcf0c7beccd286c658e08187914,
         "meta": {},
         "name": "error",
         "alias": "*"

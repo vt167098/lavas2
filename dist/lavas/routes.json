@@ -1,0 +1,27 @@
+{
+    "mode": "history",
+    "base": "/",
+    "routes": [
+        {
+            "path": "/appshell",
+            "name": "appshell",
+            "meta": {}
+        },
+        {
+            "path": "/",
+            "name": "index",
+            "meta": {}
+        },
+        {
+            "path": "/pages/:hall",
+            "name": "pagesHall",
+            "meta": {}
+        },
+        {
+            "path": "/error",
+            "name": "error",
+            "meta": {},
+            "alias": "*"
+        }
+    ]
+}

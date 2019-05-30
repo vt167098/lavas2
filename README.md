@@ -27,3 +27,9 @@ Lavas 工程模版基于 [vue-template-vue](https://github.com/lavas-project/lav
 ## Changelog
 
 详细的 Changelog 请看 [Release Notes](https://github.com/lavas-project/lavas-template-vue/releases)
+
+## Note
+
+1. lavas.config.js 的publicPath 與 route base path,記得要修正成對應指定名稱
+2. 如果測試與生成專案時的埠位有錯, 記得改server.*.js的埠位
+3. 刪除.git目錄, 再git init
